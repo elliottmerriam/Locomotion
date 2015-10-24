@@ -34,10 +34,3 @@ the EthoReader3 function
 because different experiments contain different sequences of events, and so were handled 
 separately in the earlier pre-processing performed by Etho_MA-FC_9-30-13.m.  So now the data
 is being "put back together again."
-
-
-
-
-
-
-
