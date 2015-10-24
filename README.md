@@ -4,7 +4,7 @@ This was primarily a data wrangling effort, owing to experimental data coming fr
 multiple disparate sources and formats.
 
 1) Script Etho_MA-FC_9-30-13.m imports and preprocesses experimental data, and then calls
-the EthoReader3 function
+the EthoReader3.m function.  
 
 2) EthoReader.m receives raw data containing X,Y coordinates of the mouse's body as input 
 from Etho_MA-FC_9-30-13.m, then converts the coordinates into distance and velocity data, 
@@ -33,4 +33,5 @@ final processed data is returned to Etho_MA-FC_9-30-13.m.
 8) Etho_MA-FC_9-30-13.m does some final re-arranging of the data.  This is necessary mostly 
 because different experiments contain different sequences of events, and so were handled 
 separately in the earlier pre-processing performed by Etho_MA-FC_9-30-13.m.  So now the data
-is being "put back together again."
+is being "put back together again."  (Note that Etho_MA-FC_9-30-13.m is an exemplary "controller" file 
+for analyzing the results of one particular experiment--there are others like it). 
